@@ -1,6 +1,20 @@
 .App {
   text-align: center;
 }
+.title {
+  text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 14, 14, 0.856);
+    font-size: 50px;
+    margin: 20px auto;
+}
+.card-container {
+  margin: 0 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2%;
+    text-align: center;
+}
 
 .App-logo {
   height: 40vmin;
