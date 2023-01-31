@@ -114,7 +114,7 @@ const superheroes = [
 
 function Card(props) {
     return (
-      <div className="SuperheroeCard">
+      <div className="card">
         <div className="card__name">{props.name}</div>
                     <img className="card__img" src={props.photo} alt="image"/>
                     <div className="card__content">
